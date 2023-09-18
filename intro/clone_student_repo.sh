@@ -1,7 +1,9 @@
 # Only do this AFTER you have created your GitHub account and added an ssh key.
 
-# Enter your projects directory.
-mkdir /proj
+# Create and enter your projects directory.
+sudo mkdir /proj
+sudo chown $USER:$USER /proj
+sudo chmod 770 /proj
 cd /proj
 
 # Now clone the student material repository.
