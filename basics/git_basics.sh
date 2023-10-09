@@ -1,8 +1,10 @@
 # Install git
 sudo dnf install git -y
 
+# NOTE: All git commands must be run from inside a git repository!
+
 # Stage a file
-git add <filename>
+git add my_file.txt
 
 # Commit a file 
 git commit -m "here is my commit message"
