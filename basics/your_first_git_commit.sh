@@ -10,6 +10,10 @@ git clone git@github.com:<your GitHub username>/compprog_class.git
 # Enter your git repo directory
 cd /proj/compprog_class/
 
+# Configure your username and email
+git config --global user.name "fist name last name"
+git config --global user.email "your email"
+
 # Open a file in this current directory with Sublime and write something in it
 subl test.txt
 
