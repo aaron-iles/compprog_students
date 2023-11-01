@@ -20,43 +20,29 @@ type_c =
 d = 
 # Store any boolean in the var "e".
 e = 
+# Make a list and store it in "f".
+f = 
+# Make a set and store it in "g".
+g = 
+# Make a dictionary and store it in "h".
+h = 
 
 
-try:
-    assert type(a) == int
-except AssertionError:
-    print(f"{a} is not an integer! it is a {type(a)}")
-else:
-    print(f"Correct! {a} is an integer")
 
+def check_answer(var, var_type):
+    try:
+        assert type(var) == var_type
+    except AssertionError:
+        print(f"{var} is not a {var_type}! it is a {type(var)}")
+    else:
+        print(f"Correct! {var} is a {var_type}")
+    return
 
-try:
-    assert type(b) == float
-except AssertionError:
-    print(f"{b} is not a float! it is a {type(b)}")
-else:
-    print(f"Correct! {b} is a float")
-
-
-try:
-    assert type(c) == type_c
-except AssertionError:
-    print(f"{c} is not a {type_c}! it is a {type(c)}")
-else:
-    print(f"Correct! {c} is a {type(c)}")
-
-
-try:
-    assert type(d) == str
-except AssertionError:
-    print(f"{d} is not a string! it is a {type(d)}")
-else:
-    print("Correct! {d} is a string")
-
-
-try:
-    assert type(e) == bool
-except AssertionError:
-    print(f"{e} is not a boolean! it is a {type(e)}")
-else:
-    print("Correct! {e} is a boolean")
+check_answer(a, int)
+check_answer(b, float)
+check_answer(c, type_c)
+check_answer(d, str)
+check_answer(e, bool)
+check_answer(f, list)
+check_answer(g, set)
+check_answer(h, dict)
