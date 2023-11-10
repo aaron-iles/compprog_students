@@ -45,3 +45,44 @@ elif username == 'aaron':
 # If the username was neither 'ben' nor 'aaron', enter the block below.
 else:
     print('an unknown user has logged in')
+
+
+# Here is an example using multiple conditions. Note how using the 'and' keyword makes the
+# conditional more strict.
+movie_showtime = 'night'
+attendee_age = 15
+if movie_showtime == 'night' and attendee_age >= 18:
+    print('the ticket is $20')
+elif movie_showtime == 'night' and attendee_age < 18:
+    print('the ticket is $15')
+elif movie_showtime == 'day' and attendee_age >= 18:
+    print('the ticket is $15')
+elif movie_showtime == 'day' and attendee_age < 18:
+    print('the ticket is $10')
+
+
+# Let's take that same example above and use nested conditionals to make the logic cleaner.
+movie_showtime = 'night'
+attendee_age = 15
+if movie_showtime == 'night':
+    if attendee_age >= 18:
+        print('the ticket is $20')
+    else:
+        print('the ticket is $15')
+elif movie_showtime == 'day':
+    if attendee_age >= 18:
+        print('the ticket is $15')
+    else:
+        print('the ticket is $10')
+
+
+# Here is an example using multiple conditions with the 'or' operator.
+class_grade = 'A'
+if class_grade == 'A' or class_grade == 'B':
+    print('wow youre doing great!')
+elif class_grade == 'C':
+    print('youre doing aight my friend')
+elif class_grade == 'D' or class_grade == 'F':
+    print('mmm not good...')
+else:
+    print('grade not recognized')
