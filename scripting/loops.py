@@ -1,4 +1,4 @@
-!#/usr/bin/env python3
+#!/usr/bin/env python3
 
 # Here is an example of a basic for loop. Note how a variable "number" is declared and that variable
 # takes on the value of the item in the list over which we are iterating.
@@ -21,7 +21,7 @@ print(total)
 for i in range(5):
     print('')
     for j in range(8):
-        print('#')
+        print('#', end='')
 
 # The while loop is a mix between a conditional and a loop. It loops so long as a condition is true.
 # Note that a while statement must be evaluated against a boolean.
