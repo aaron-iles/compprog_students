@@ -17,6 +17,11 @@ for i in [3, 6, 8, 1, 100]:
     total += i
 print(total)
 
+# You can use for loops to print some nice ASCII art.
+for i in range(5):
+    print('')
+    for j in range(8):
+        print('#')
 
 # The while loop is a mix between a conditional and a loop. It loops so long as a condition is true.
 # Note that a while statement must be evaluated against a boolean.
