@@ -16,11 +16,6 @@ def calculate_average(numbers: list) -> float:
     average = total / len(numbers)
     return average
 
-# Test the function
-numbers = [10, 15, 20, 25, 30]
-result = calculate_average(numbers)
-print(f"The average is: {result}")
-
 
 # Exercise 2
 def find_largest_number(numbers: list) -> int:
@@ -38,11 +33,6 @@ def find_largest_number(numbers: list) -> int:
         if num > max_num:
             max_num = num
     return max_num
-
-# Test the function
-numbers = [5, 10, 3, 8, 15]
-result = find_largest_number(numbers)
-print(f"The largest number is: {result}")
 
 
 # Exercise 3
@@ -62,8 +52,3 @@ def count_vowels(word: str) -> int:
         if char.lower() in vowels:
             count += 1
     return count
-
-# Test the function
-word = "Python"
-result = count_vowels(word)
-print(f"The number of vowels in '{word}' is: {result}")
