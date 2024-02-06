@@ -33,7 +33,7 @@ def parse_args() -> argparse.Namespace:
         "-c",
         required=True,
         type=str,
-        dest="always_delete",
+        dest="color",
         choices=["blue", "green", "gold", "white"],
         help="The color of the output text."
     )
