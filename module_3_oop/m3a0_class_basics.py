@@ -2,20 +2,21 @@
 
 
 # INSTRUCTIONS
-# For this assignment you will demonstrate the creation of a simple class. You may create a class to
-# represent anything you would like: a person, vehicle, building, game... anything to which 
-# attributes could be given and methods could be applied. The following MUST be demonstrated:
-#    - The declaration of a class
-#    - The declaration of the __init__ method
-#    - The declaration of at least one method
-#    - The declaration of at least one attribute
-#    - The instantiation of the class
-#    - A call to a method in the class
-#    - A call to an attribute in the class
-# Below you will find a module that does all of the above items. You must create your own class, 
-# variables, methods, attributes, etc., but I provided this to help you get started. Remember PEP 8 
-# and PEP 20. You must include docstrings and type hints.
-
+"""
+For this assignment you will demonstrate the creation of a simple class. You may create a class to
+represent anything you would like: a person, vehicle, building, game... anything to which 
+attributes could be given and methods could be applied. The following MUST be demonstrated:
+   - The declaration of a class
+   - The declaration of the __init__ method
+   - The declaration of at least one method
+   - The declaration of at least one attribute
+   - The instantiation of the class
+   - A call to a method in the class
+   - A call to an attribute in the class
+Below you will find a module that does all of the above items. You must create your own class, 
+variables, methods, attributes, etc., but I provided this to help you get started. Remember PEP 8 
+and PEP 20. You must include docstrings and type hints.
+"""
 
 
 class Example:
