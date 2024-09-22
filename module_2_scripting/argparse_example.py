@@ -30,12 +30,13 @@ def parse_args() -> argparse.Namespace:
         help="True if this module should always delete the working directory and False otherwise.",
     )
     p.add_argument(
-        "-c",
+        "-o",
+        "--operation",
         required=True,
         type=str,
-        dest="color",
-        choices=["blue", "green", "gold", "white"],
-        help="The color of the output text."
+        dest="operation",
+        choices=["add", "multiple", "divide"],
+        help="Tasdasdasdasd"
     )
 
     return p.parse_args()
@@ -43,8 +44,11 @@ def parse_args() -> argparse.Namespace:
 
 def main():
     args = parse_args()
-    print(args.tree_height)
-    print(args.always_delete)
+    if args.operation == 'add':
+        result = add(args.number_a, args.number_b)
+    elif ...:
+        ...
+    print(result)
     return
 
 
