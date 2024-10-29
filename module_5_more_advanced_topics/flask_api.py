@@ -102,4 +102,4 @@ if __name__ == "__main__":
     args = parse_args()
     database = args.database_path
     init_database(database)
-    app.run(host='10.20.38.245', port=8080, debug=True, threaded=False)
+    app.run(host='127.0.0.1', port=8080, debug=True, threaded=False)
