@@ -5,6 +5,7 @@ import sqlite3
 import argparse
 import sys
 from flask import Flask, make_response
+from flask import request
 from flask_restx import Resource, Api
 
 # Create globals for your application and API objects.
@@ -77,6 +78,12 @@ class UsersAPI(Resource):
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM users")
         return cursor.fetchall()
+
+    def post(self):
+        """
+        """
+        # TODO: How do you get the data from a POST? Maybe use request.form?
+        return make_response({"message": "user added successfully"}, 201)
 
 
 @api.route("/users/<int:user_id>")
