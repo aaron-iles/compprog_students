@@ -4,7 +4,7 @@
 import sqlite3
 import argparse
 import sys
-from flask import Flask, make_response
+from flask import Flask, make_response, request
 from flask import request
 from flask_restx import Resource, Api
 
@@ -82,8 +82,9 @@ class UsersAPI(Resource):
     def post(self):
         """
         """
-        # TODO: How do you get the data from a POST? Maybe use request.form?
-        return make_response({"message": "user added successfully"}, 201)
+        data = request.get_json()
+        # TODO write the data to the database.
+        return make_response({"message": f"user {data} added successfully"}, 501)
 
 
 @api.route("/users/<int:user_id>")
