@@ -11,3 +11,6 @@ def test_add_1_and_2():
 def test_add_2_and_3():
     assert mymodule.add(2, 3) == 5
 
+def test_add_failure():
+    assert mymodule.add(2, 3) == 5
+
