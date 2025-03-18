@@ -1,0 +1,16 @@
+---
+services:
+  my_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: python:latest
+    logging:
+      driver: none
+    container_name: my-application
+    ports:
+      - '80:8080'
+    restart: unless-stopped
+    network_mode: bridge
+    volumes:
+      - './data:/app/data'
