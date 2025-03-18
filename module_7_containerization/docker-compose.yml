@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: python:latest
+    image: my-image:latest
     logging:
       driver: none
     container_name: my-application
