@@ -6,8 +6,8 @@ VOLUME /app
 
 COPY docker-entrypoint.sh requirements.txt /app/
 
-COPY dist/mypackage*.whl /tmp/
+COPY dist/*.whl /tmp/
 
-RUN python3 -m pip install --no-cache-dir -r requirements.txt /tmp/mypackage-*.whl
+RUN python3 -m pip install --no-cache-dir -r requirements.txt /tmp/*.whl
 
 CMD ["/app/docker-entrypoint.sh"]
