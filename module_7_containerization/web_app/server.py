@@ -4,10 +4,11 @@ import argparse
 import json
 import logging
 import sys
+import eventlet
+import socketio
 
 from flask import Flask, render_template, request
 
-app = Flask(__name__)
 
 
 def setup_logging(verbose: bool = False):
@@ -55,10 +56,11 @@ def get_basic():
 
 
 # Read in the config file.
-args = parse_args()
-setup_logging(args.verbose)
-logger = logging.getLogger(__name__)
-
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+def start_application():
+    args = parse_args()
+    setup_logging(args.verbose)
+    logger = logging.getLogger(__name__)
+    app = flask.Flask(__name__)
+    socketio = SocketIO(app)
+    socketio.run(app, host="0.0.0.0", port=8080, debug=True)
+    return
