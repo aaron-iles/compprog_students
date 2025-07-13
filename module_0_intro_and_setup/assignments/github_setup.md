@@ -22,15 +22,17 @@ Follow [these instructions](https://docs.github.com/en/authentication/connecting
 6. Click "Create Repository".
 
 ### Clone the student materials repo
-Let's clone the student repo. In your VM, run the following commands:
+Let's clone the student repo. Later on we will talk more about git. In your VM, run the following commands:
 ```bash
 # Only do this AFTER you have created your GitHub account and added an ssh key.
 
 # Create and enter your projects directory.
-sudo mkdir /proj
-sudo chown $USER:$USER /proj
-sudo chmod 770 /proj
-cd /proj
+cd ~
+mkdir proj
+cd proj
+
+# Install git
+sudo dnf install git -y
 
 # Now clone the student material repository.
 git clone git@github.com:aaron-iles/compprog_students.git
@@ -43,6 +45,18 @@ ls -la intro
 # Check which branch you are on.
 git status
 git branch
+```
+
+### Clone your git repo
+Now let's clone the repo we made in GitHub.
+```bash
+cd ~/proj
+
+# Replace [your username] with your git username. Look at the URL in your address bar to determine what this is.
+git clone git@github.com:[your username]/compprog_class.git
+
+cd compprog_class
+git status
 ```
 
 ### Update your bash profile
