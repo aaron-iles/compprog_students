@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
+# Colored Output
 
-# To print colored output you will need to use ANSII escape codes. 
-# See the colors section here: https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
+To print colored output you will need to use ANSII escape codes. See the colors section here: https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
 
-
+```python
 print("\033[32mhere is some green text\033[0m")
 print("\033[32;1mhere is some bold green text\033[0m")
 print("\033[31mhere is some red text\033[0m")
@@ -14,7 +13,6 @@ for fg_color in range(30, 38):
     for bg_color in range(40, 48):
         print(f"[{fg_color} {bg_color} \033[{fg_color};{bg_color}mabcABC123\033[0m] ", end='')
     print('')
-
 
 def print_surprise():
     star_6 = f'\033[1;37;44m   ★\033[0m'
@@ -29,3 +27,4 @@ def print_surprise():
     print(line_a)
     print(f'{white * 72}\n{red * 72}\n' * 4)
     return
+```
