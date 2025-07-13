@@ -19,54 +19,11 @@ Each student will be required to bring a laptop to class each day. If you are un
 
 ### Module 0: Intro and Setup
 **Description:** Setting up your development environment, learning the tools we'll use throughout the course.
-
-- [Module 0](module_0_intro_and_setup/module_0.md)
+[Module 0](module_0_intro_and_setup/module_0.md)
 
 ---
 
 ### Module 1: Basics
 **Description:** Covers variables, data types, conditionals, loops, and basic I/O.
+[Module 1](module_1_basics/module_1.md)
 
-- [Assignment 1](assignments/module_1_basics.md)
-
----
-
-### Module 2: Scripting
-**Description:** Writing standalone scripts, parsing command-line arguments, and automating tasks.
-
-- [Assignment 2](assignments/module_2_scripting.md)
-
----
-
-### Module 3: Object-Oriented Programming (OOP)
-**Description:** Classes, objects, inheritance, encapsulation, and design principles.
-
-- [Assignment 3](assignments/module_3_oop.md)
-
----
-
-### Module 4: Advanced Topics
-**Description:** Error handling, decorators, iterators/generators, and file operations.
-
-- [Assignment 4](assignments/module_4_advanced_topics.md)
-
----
-
-### Module 5: More Advanced Topics
-**Description:** Concurrency, multithreading, async I/O, and performance optimization.
-
-- [Assignment 5](assignments/module_5_more_advanced_topics.md)
-
----
-
-### Module 6: Packaging
-**Description:** Creating installable Python packages, versioning, and publishing to PyPI.
-
-- [Assignment 6](assignments/module_6_packaging.md)
-
----
-
-### Module 7: Containerization
-**Description:** Introduction to Docker, containerizing Python applications, and using Docker Compose.
-
-- [Assignment 7](assignments/module_7_containerization.md)
