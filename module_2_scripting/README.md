@@ -3,6 +3,6 @@
 ## Assignments
 ### [Conditionals](assignments/conditionals.md)
 
-
 ## Resources
-### [git cheat sheet](resources/conditionals_overview.md)
+### [conditionals overview](resources/conditionals_overview.md)
+### [loops](resources/loops.md)
