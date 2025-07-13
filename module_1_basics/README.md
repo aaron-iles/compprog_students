@@ -8,7 +8,7 @@
 ### [Hello World](assignments/hello_world.md)
 ### [Types](assignments/types.md)
 ### [Types and Variable Assignment Quiz](quizzes/types_quiz.md)
-
+### [Hello $USER](assignments/hello_user.md)
 
 ## Resources
 ### [git cheat sheet](resources/git_cheat_sheet.sh)
