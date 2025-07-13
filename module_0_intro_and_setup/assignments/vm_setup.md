@@ -24,7 +24,7 @@ sudo echo "hello world"
 
 ### Update your bash profile
 There are a number of scripts that run when you log in that change how your environment behaves. We are going to inject some commands to make it a bit better by using a file called `.bash_profile`. 
-1. Copy the file [.bash_profile](resources/.bash_profile) into your home directory in your VM. ==NOTE:== the file must be named `.bash_profile` not `bash_profile`! 
+1. Copy the file [.bash_profile](../resources/.bash_profile) into your home directory in your VM. ==NOTE:== the file must be named `.bash_profile` not `bash_profile`! 
 2. Log out of your VM.
 3. Log back into your VM, open a terminal, and run the following command:
 ```
