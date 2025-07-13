@@ -1,4 +1,4 @@
-# Module 0
+# Module 0: Intro and Setup
 
 ## Assignments
 ### [GitHub Setup](assignments/github_setup.md)
