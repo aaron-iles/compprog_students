@@ -2,8 +2,6 @@
 
 ## Assignments
 
-### GitHub Setup
-[instructions](assignments/github_setup.md)
+### [GitHub Setup](assignments/github_setup.md)
 
-### VM Setup
-[instructions](assignments/vm_setup.md)
+### [VM Setup](assignments/vm_setup.md)

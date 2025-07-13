@@ -1,9 +1,7 @@
-# Module 0
+# Module 1
 
 ## Assignments
 
-### GitHub Setup
-[instructions](assignments/github_setup.md)
+### [Bash Basics](assignments/bash_basics.md)
 
-### VM Setup
-[instructions](assignments/vm_setup.md)
+### [Bash Basics Quiz](quizzes/bash_basics_quiz.md)
