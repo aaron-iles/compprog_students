@@ -15,8 +15,8 @@ Each student will be required to bring a laptop to class each day. If you are un
 
 ## Modules
 
-### [Module 0: Intro and Setup](module_0_intro_and_setup/module_0.md)
+### [Module 0: Intro and Setup](module_0_intro_and_setup/README.md)
 Setting up your development environment, learning the tools we'll use throughout the course.
 
-### [Module 1: Basics](module_1_basics/module_1.md)
+### [Module 1: Basics](module_1_basics/README.md)
 Covers variables, data types, conditionals, loops, and basic I/O.
