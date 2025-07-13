@@ -11,3 +11,5 @@
 ### [Executing Files](assignments/executing_files.md)
 
 ### [Hello World](assignments/hello_world.md)
+
+### [Types](assignments/types.md)
