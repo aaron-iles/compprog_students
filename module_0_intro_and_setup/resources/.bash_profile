@@ -1,16 +1,8 @@
 # Aliases
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
-alias ..='cd ..; ll'
-alias ....='cd ../..; ll'
 alias rm='rm -i'
-alias g='gvim -p --remote-tab-silent'
-
-# Functions
-function d {
-    cd $1; ll
-}
+alias testme='echo it worked!'
 
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
