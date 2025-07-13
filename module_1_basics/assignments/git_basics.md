@@ -2,6 +2,8 @@
 
 ## Description
 Git is the most popular version control system on earth. Every developer must learn the basics of git if they wish to contribute to a team. This exercise is meant to get you comfortable with some basic git commands. In module 0 we created a GitHub account, created a repository, and cloned the student repo and your own repo already.
+
+## Resources
 Here is a cheat sheet for future reference: [git cheat sheet](../resources/git_cheat_sheet.sh)
 
 ## Instructions

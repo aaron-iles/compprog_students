@@ -3,6 +3,9 @@
 ## Description
 This exercise is meant to get you comfortable with bash commands and used to controlling the computer via a shell in a CLI. Walk through this exercise and perform the commands in sequence in the document.
 
+## Resources
+Here is a cheat sheet for future reference: [bash cheat sheet](../resources/bash_cheat_sheet.sh)
+
 ## Instructions
 ### Run the commands
 ```bash
