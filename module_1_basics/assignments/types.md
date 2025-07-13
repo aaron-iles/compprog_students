@@ -3,6 +3,9 @@
 ## Description
 Demonstrate your knowledge of various types in Python.
 
+## Resources
+Here is a cheat sheet for variable assignments [variable assignment cheat sheet](../resources/variable_assignment_cheat_sheet.py)
+
 ## Instructions
 1. Copy the block of code below and place it in a file in your git repo called `type_worksheet.py`
 ```python

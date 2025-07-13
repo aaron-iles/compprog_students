@@ -46,7 +46,7 @@ a = 9.5
 b = [1, True, "a"]
 ```
 
-6. Which of the following assignment e pressions will NOT throw an error?
+6. Which of the following assignment expressions will NOT throw an error?
 Hint: run these in ipython3 to test them.
 - [ ] `def = 4`
 - [ ] `Int = 1`

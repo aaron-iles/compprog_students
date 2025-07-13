@@ -13,3 +13,5 @@
 ### [Hello World](assignments/hello_world.md)
 
 ### [Types](assignments/types.md)
+
+### [Types and Variable Assignment Quiz](quizzes/types_quiz.md)
