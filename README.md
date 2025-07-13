@@ -15,10 +15,9 @@ Each student will be required to bring a laptop to class each day. If you are un
 
 ## Modules
 
-### Module 0: Intro and Setup
+### [Module 0: Intro and Setup](module_0_intro_and_setup/module_0.md)
 #### Description
 Setting up your development environment, learning the tools we'll use throughout the course.
-[Module 0](module_0_intro_and_setup/module_0.md)
 
 ### Module 1: Basics
 #### Description
