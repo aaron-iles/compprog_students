@@ -2,6 +2,7 @@
 
 ## Assignments
 ### [Conditionals](assignments/conditionals.md)
+### [Christmas Tree](assignments/christmas_tree.md)
 
 ## Resources
 ### [conditionals overview](resources/conditionals_overview.md)
