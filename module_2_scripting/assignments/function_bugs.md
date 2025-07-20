@@ -1,14 +1,17 @@
 # Function Bugs
 
 ## Description
-In the code below there are 3 functions. Each of them appears to work well, but they each have a bug that needs fixing. I did not give you the test cases that will actually cause them to break-- it is up to you to find the bugs.
+The following Python script contains three functions. Each appears to work at first glance, but each has a subtle bug that needs fixing. Your job is to identify and correct the bugs using your knowledge of testing and debugging.
 
 ## Instructions
-1. Copy the functions below into a file in your repo so you can test and fix them.
-2. Try running the functions with a few different test cases to see if you can identify the bug in each function.
-3. Once you have identified the bug, implement a fix.
-4. git add, commit, and push!
-5. Submit a link to the file in your repo.
+
+1. Copy the three functions below into a file in your GitHub repository named `function_bugs.py`.
+2. Write test cases to try each function with **different types of input**, including edge cases.
+3. Identify the bug(s) in each function and implement a fix.
+4. When you're done, `git add`, `commit`, and `push` your changes to your repository.
+5. Submit the URL of the file from your GitHub repo.
+
+### Starter Code
 
 ```python
 # Exercise 1
@@ -63,3 +66,39 @@ def count_vowels(word: str) -> int:
             count += 1
     return count
 ```
+
+## Examples & Test Cases
+
+You should test each function with:
+- An empty list
+- Negative numbers
+- Edge cases (e.g., only one item in the list)
+- Uppercase/lowercase inputs
+
+| Function Call                    | Expected Outcome               |
+|----------------------------------|--------------------------------|
+| `calculate_average([])`         | `0.0`                          |
+| `find_largest_number([-3, -1])` | `-1`                           |
+| `count_vowels("HELLO")`         | `2`                            |
+
+## Submission Checklist
+- [ ] Created `function_bugs.py` in your GitHub repo.
+- [ ] Tested each function with a variety of inputs.
+- [ ] Fixed all three bugs.
+- [ ] Pushed the updated file to GitHub.
+- [ ] Submitted the GitHub URL.
+
+## Grading Criteria
+
+| Criteria                              | Points |
+|---------------------------------------|--------|
+| Bug fixed in `calculate_average()`    | 4 pts  |
+| Bug fixed in `find_largest_number()`  | 4 pts  |
+| Bug fixed in `count_vowels()`         | 3 pts  |
+| Clear and valid test cases used       | 2 pts  |
+| Code formatting and clarity           | 2 pts  |
+
+**Total**: 15 points
+
+## Resources
+- [Python Testing Basics](https://realpython.com/python-testing/)
