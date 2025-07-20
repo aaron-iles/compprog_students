@@ -11,8 +11,6 @@ aaron.iles@hopeacademyhbc.org
 ## Requirements
 Each student will be required to bring a laptop to class each day. If you are unable to meet this requirement, please let me know.
 
----
-
 ## Modules
 
 ### [Module 0: Intro and Setup](module_0_intro_and_setup/README.md)
