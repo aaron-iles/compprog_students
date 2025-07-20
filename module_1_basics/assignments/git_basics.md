@@ -1,37 +1,73 @@
 # Git Basics
 
 ## Description
-Git is the most popular version control system on earth. Every developer must learn the basics of git if they wish to contribute to a team. This exercise is meant to get you comfortable with some basic git commands. In module 0 we created a GitHub account, created a repository, and cloned the student repo and your own repo already.
-
-## Resources
-Here is a cheat sheet for future reference: [git cheat sheet](../resources/git_cheat_sheet.sh)
+Git is the most popular version control system on earth. Every developer must learn the basics of Git if they wish to contribute to a team. This exercise is meant to get you comfortable with some basic Git commands. In Module 0, you created a GitHub account, created a repository, and cloned both the student repo and your own repo.
 
 ## Instructions
-### Run the commands
-```bash
 
-# Enter your git repo
-cd ~/proj/compprog_class
+1. Enter your cloned repository:
+    ```bash
+    cd ~/proj/compprog_class
+    ```
 
-# Configure your username and email
-git config --global user.name "fist name last name"
-git config --global user.email "your email"
+2. Configure your Git username and email (use your actual name and email):
+    ```bash
+    git config --global user.name "first name last name"
+    git config --global user.email "your email"
+    ```
 
-# Open a file in this current directory with Sublime and write something in it
-subl test.txt
+3. Open a file in Sublime and write something in it:
+    ```bash
+    subl test.txt
+    ```
 
-# Now stage the file
-git add test.txt
+4. Stage the file:
+    ```bash
+    git add test.txt
+    ```
 
-# Commit the file 
-git commit -m "adding a test file for my class assignment"
+5. Commit the file:
+    ```bash
+    git commit -m "adding a test file for my class assignment"
+    ```
 
-# Push the commit
-git push
-```
-### Submit the assignment
-To indicate completion and prove the directions were followed, please submit a link to the file you pushed in your git repo. You can find this URL by following these steps
-1. Log into GitHub.
-2. Open your repository (remember it is called "compprog_class").
-3. Find the file you pushed up ("test.txt") and click on it.
-4. Copy the URL in the address bar and submit that with this assignment for credit.
+6. Push the commit:
+    ```bash
+    git push
+    ```
+
+### Submit the Assignment
+
+To indicate completion and prove the directions were followed, submit a **link to the file** you pushed in your GitHub repo. You can find this link by:
+
+1. Logging into [GitHub](https://github.com).
+2. Opening your `compprog_class` repository.
+3. Clicking on the `test.txt` file you pushed.
+4. Copying the URL from the address bar and submitting that.
+
+## Examples & Test Cases
+
+| Command               | Expected Output                          |
+|----------------------|------------------------------------------|
+| `git add test.txt`   | *(no output if successful)*              |
+| `git commit -m ...`  | `1 file changed, 1 insertion(+)`         |
+| `git push`           | Pushes the commit to GitHub successfully |
+
+## Submission Checklist
+- [ ] Git username and email configured.
+- [ ] File `test.txt` created and edited.
+- [ ] File staged, committed, and pushed to GitHub.
+- [ ] Link to the pushed file submitted.
+
+## Grading Criteria
+
+| Criteria                         | Points |
+|----------------------------------|--------|
+| File created and committed       | 5 pts  |
+| File pushed to GitHub            | 5 pts  |
+| GitHub URL submitted correctly   | 5 pts  |
+
+**Total**: 15 points
+
+## Resources
+- [Git Cheat Sheet](../resources/git_cheat_sheet.sh)

@@ -1,41 +1,61 @@
 # Types
 
 ## Description
-Demonstrate your knowledge of various types in Python.
-
-## Resources
-Here is a cheat sheet for variable assignments [variable assignment cheat sheet](../resources/variable_assignment_cheat_sheet.py)
+Demonstrate your knowledge of various types in Python by creating and assigning values to different variable types.
 
 ## Instructions
-1. Copy the block of code below and place it in a file in your git repo called `type_worksheet.py`
-```python
-# Store any integer in the var "a".
-a = 
 
-# Store any float in the var "b".
-b = 
+1. Copy the block of code below and paste it into a file in your Git repository named `type_worksheet.py`:
+    ```python
+    # Store any integer in the var "a".
+    a = 
 
-# Add a and b and store it in "c" so that c is the sum of a and b.
-c = 
+    # Store any float in the var "b".
+    b = 
 
-# Now state what the type of the var c is. (Hint: it will be float, int, str, bool, etc.)
-type_c = 
+    # Add a and b and store it in "c" so that c is the sum of a and b.
+    c = 
 
-# Store any string in the var "d".
-d = 
+    # Now state what the type of the var c is. (Hint: it will be float, int, str, bool, etc.)
+    type_c = 
 
-# Store any boolean in the var "e".
-e = 
+    # Store any string in the var "d".
+    d = 
 
-# Make a list and store it in "f".
-f = 
+    # Store any boolean in the var "e".
+    e = 
 
-# Make a set and store it in "g".
-g = 
+    # Make a list and store it in "f".
+    f = 
 
-# Make a dictionary and store it in "h".
-h =
-```
-2. Fill out variables `a` through `h` appropriately. 
-3. Add, commit, and push the file to your repo.
-4. To submit the assignment, copy and paste the URL of the file in YOUR Git repo in the assignment and submit it.
+    # Make a set and store it in "g".
+    g = 
+
+    # Make a dictionary and store it in "h".
+    h = 
+    ```
+
+2. Fill in each variable (`a` through `h`) with an appropriate value for its type.
+3. Add, commit, and push the file to your GitHub repository.
+4. Submit the assignment by copying the URL of your pushed file (`type_worksheet.py`) and pasting it in the assignment submission.
+
+## Examples & Test Cases
+
+
+## Submission Checklist
+- [ ] Created the file `type_worksheet.py`.
+- [ ] Correct values and types assigned to variables `a` through `h`.
+- [ ] File added, committed, and pushed to GitHub.
+- [ ] URL of file submitted for grading.
+
+## Grading Criteria
+
+| Criteria                                 | Points |
+|------------------------------------------|--------|
+| Correctly assigned values and types      | 10 pts |
+| File named and submitted correctly       | 5 pts  |
+
+**Total**: 15 points
+
+## Resources
+- [Variable Assignment Cheat Sheet](../resources/variable_assignment_cheat_sheet.py)
