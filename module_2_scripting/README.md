@@ -7,7 +7,7 @@
 ### [Calculator](assignments/calculator.md)
 
 ## Resources
-### [loops](resources/loops.md)
+### [loops overview](resources/loops_overview.md)
 ### [colored output](resources/colored_output.md)
 ### [argparse](resources/argparse_example.py)
 ### [good example code](resources/good_example_code.py)
