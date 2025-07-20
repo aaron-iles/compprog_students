@@ -1,6 +1,7 @@
 # Loops
 
-Here is an example of a basic for loop. Note how a variable "number" is declared and that variable takes on the value of the item in the list over which we are iterating.
+## `for` Loops
+Here is an example of a basic `for` loop. Note how a variable "number" is declared and that variable takes on the value of the item in the list over which we are iterating.
 ```python
 for number in [1, 2, 3]:
     print(number)
@@ -30,6 +31,7 @@ for i in range(5):
         print('#', end='')
 ```
 
+## `while` Loops
 The while loop is a mix between a conditional and a loop. It loops so long as a condition is true. Note that a while statement must be evaluated against a boolean.
 ```python
 total = 0
