@@ -34,7 +34,7 @@ def say_my_name() -> None:
 
     :return None:
     """
-    print(f'Your name is {getpass.getuser()}')
+    print(f"Your name is {getpass.getuser()}")
     return
 
 
@@ -49,17 +49,19 @@ def str_to_list(delimited_string: str, delimiter: str) -> list:
     :return list: A list of strings as a result of the split.
     """
     if type(delimited_string) != type(delimiter) != str:
-        print('ERROR: inputs must be strings')
+        print("ERROR: inputs must be strings")
         return []
     if delimiter not in delimited_string:
-        print(f'WARNING: the provided string does not contain the delimiter <{delimiter}>')
+        print(f"WARNING: the provided string does not contain the delimiter <{delimiter}>")
     return delimited_string.split(delimiter)
 
 
 def main():
     say_my_name()
+    result_is_prime = is_prime(101)
+    name_list = str_to_list("Butler,Jiggs,Scout", ",")
     return
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

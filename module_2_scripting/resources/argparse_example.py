@@ -36,19 +36,15 @@ def parse_args() -> argparse.Namespace:
         type=str,
         dest="operation",
         choices=["add", "multiple", "divide"],
-        help="Tasdasdasdasd"
+        help="The operation to execute in this module.",
     )
-
     return p.parse_args()
 
 
 def main():
     args = parse_args()
-    if args.operation == 'add':
-        result = add(args.number_a, args.number_b)
-    elif ...:
-        ...
-    print(result)
+    print(args.operation)
+    print(args.tree_height)
     return
 
 
