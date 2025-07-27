@@ -46,3 +46,4 @@ The goal is to demonstrate the **structure** and **basic functionality** of a Py
 ## Resources
 - [PEP 8 – Python Style Guide](https://peps.python.org/pep-0008/)
 - [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)
+- [example class](../resources/example_class.py)
