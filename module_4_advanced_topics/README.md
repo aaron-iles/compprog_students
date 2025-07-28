@@ -5,6 +5,7 @@
 ### [Storage Part 1: SQLite](assignments/storage_part2_sqlite.md)
 ### [Lambda Functions](assignments/lambda_functions.md)
 ### [Regular Expressions](assignments/regex.md)
+### [Simple API](assignments/simple_api.md)
 
 ## Resources
 ### [parallel map](resources/parallel_map.py)
