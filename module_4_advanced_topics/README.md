@@ -4,6 +4,7 @@
 ### [Storage Part 1: JSON](assignments/storage_part1_json.md)
 ### [Storage Part 1: SQLite](assignments/storage_part2_sqlite.md)
 ### [Lambda Functions](assignments/lambda_functions.md)
+### [Regular Expressions](assignments/regex.md)
 
 ## Resources
 ### [parallel map](resources/parallel_map.py)
