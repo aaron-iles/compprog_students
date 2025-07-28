@@ -1,4 +1,4 @@
-# Lambda Practice
+# Lambda Functions
 
 ## Description
 Practice using `lambda` functions with `map()` and `filter()` in Python. You will create small, testable expressions that transform and filter data using functional programming techniques.
