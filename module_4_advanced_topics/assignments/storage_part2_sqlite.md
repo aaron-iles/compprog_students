@@ -48,5 +48,5 @@ In this exercise, you will demonstrate your ability to use SQLite both through t
 **Total**: 15 points
 
 ## Resources
-### [SQLite CLI usage](resources/sqlite_cli_usage.md)
-### [SQLite python usage](resources/sqlite_python_usage.md)
+### [SQLite CLI usage](../resources/sqlite_cli_usage.md)
+### [SQLite python usage](../resources/sqlite_python_usage.md)
