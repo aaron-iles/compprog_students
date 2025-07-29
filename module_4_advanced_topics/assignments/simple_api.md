@@ -108,3 +108,4 @@ if __name__ == "__main__":
 ## Resources
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [sqlite3 module](https://docs.python.org/3/library/sqlite3.html)
+- [CRUD](../resources/crud.md)

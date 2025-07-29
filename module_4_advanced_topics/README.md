@@ -12,3 +12,4 @@
 ### [SQLite CLI usage](resources/sqlite_cli_usage.md)
 ### [SQLite python usage](resources/sqlite_python_usage.md)
 ### [file IO](resources/file_io.md)
+### [CRUD](resources/crud.md)
