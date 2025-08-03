@@ -19,3 +19,4 @@ Each student will be required to bring a laptop to class each day. If you are un
 ### [Module 3: Object Oriented Programming](module_3_oop/README.md)
 ### [Module 4: Advanced Topics](module_4_advanced_topics/README.md)
 ### [Module 5: Packaging](module_5_packaging/README.md)
+### [Module 6: Containerization](module_6_containerization/README.md)
