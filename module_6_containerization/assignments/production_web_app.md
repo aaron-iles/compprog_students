@@ -1,7 +1,7 @@
 # Web Application with uWSGI and Flask
 
 ## Description
-This is a capstone assignment to demonstrate your ability to create a production-ready Python web application. You'll use Flask, uWSGI, eventlet, HTML templating, and containerization. A skeleton of the project has already been provided at `compprog_students/web_app`.
+This is a capstone assignment to demonstrate your ability to create a production-ready Python web application. You'll use Flask, uWSGI, eventlet, HTML templating, and containerization. A skeleton of the project has already been provided [here](../resources/web_app).
 
 ## Instructions
 
