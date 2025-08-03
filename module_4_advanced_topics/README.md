@@ -1,6 +1,7 @@
 # Module 4: Advanced Topics
 
 ## Assignments
+### [Error Handling](assignments/error_handling.md)
 ### [Storage Part 1: JSON](assignments/storage_part1_json.md)
 ### [Storage Part 1: SQLite](assignments/storage_part2_sqlite.md)
 ### [Lambda Functions](assignments/lambda_functions.md)
