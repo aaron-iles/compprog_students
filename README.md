@@ -15,5 +15,7 @@ Each student will be required to bring a laptop to class each day. If you are un
 
 ### [Module 0: Intro and Setup](module_0_intro_and_setup/README.md)
 ### [Module 1: Basics](module_1_basics/README.md)
-### [Module 2: Object Oriented Programming](module_3_oop/README.md)
+### [Module 2: Scripting](module_2_scripting/README.md)
+### [Module 3: Object Oriented Programming](module_3_oop/README.md)
 ### [Module 4: Advanced Topics](module_4_advanced_topics/README.md)
+### [Module 5: Packaging](module_5_packaging/README.md)
