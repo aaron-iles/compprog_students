@@ -22,7 +22,7 @@ Follow [these instructions](https://docs.github.com/en/authentication/connecting
 6. Click "Create Repository".
 
 ### Clone the student materials repo
-Let's clone the student repo. Later on we will talk more about git. In your VM, run the following commands:
+Let's clone the student repo. Later on we will talk more about git. In your VM, run the following commands using the "terminal" application:
 ```bash
 # Only do this AFTER you have created your GitHub account and added an ssh key.
 
