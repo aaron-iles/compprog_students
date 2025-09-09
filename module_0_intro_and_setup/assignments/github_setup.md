@@ -20,6 +20,7 @@ Follow [these instructions](https://docs.github.com/en/authentication/connecting
 4. Name your repository "compprog_class".
 5. Set your repo to "Private".
 6. Click "Create Repository".
+7. Share the repository with me by clicking "Invite collaborators" > "Add people" > type "aaron-iles".
 
 ### Clone the student materials repo
 Let's clone the student repo. Later on we will talk more about git. In your VM, run the following commands using the "terminal" application:
