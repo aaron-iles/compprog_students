@@ -13,8 +13,9 @@ For this assignment you will log into Guacamole (a clientless remote desktop gat
 ### Confirm access
 1. Navigate to [my homelab Guacamole instance](https://guacamole.m9e.dev)
 2. Log in using the credentials sent to your student email account.
-3. After logging in you should see a login screen for your virtual machine. Enter your password and confirm that you can get into your VM.
-4. Open Google Chrome and navigate to [GitHub](https://github.com)
+3. When prompted to allow Guacamole access to your clipboard, please grant it access.
+4. After logging in you should see a login screen for your virtual machine. Enter your password and confirm that you can get into your VM.
+5. Open Google Chrome and navigate to [GitHub](https://github.com)
 
 ### Confirm sudoers
 1. Open the application called "Terminal" and confirm that you can run the following command
