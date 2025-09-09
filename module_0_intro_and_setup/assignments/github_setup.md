@@ -41,7 +41,6 @@ git clone git@github.com:aaron-iles/compprog_students.git
 # Open up the repo and take a look.
 cd compprog_students
 ls -la
-ls -la intro
 
 # Check which branch you are on.
 git status
