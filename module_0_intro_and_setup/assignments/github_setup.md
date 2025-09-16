@@ -58,13 +58,3 @@ git clone git@github.com:[your username]/compprog_class.git
 cd compprog_class
 git status
 ```
-
-### Update your bash profile
-Last step! There are a number of scripts that run when you log in that change how your environment behaves. We are going to inject some commands to make it a bit better by using a file called `.bash_profile`. 
-1. Copy the file [.bash_profile](../resources/.bash_profile) into your home directory in your VM. ==NOTE:== the file must be named `.bash_profile` not `bash_profile`! You can also find this file inside the compprog_students git repository that you just cloned up above.
-2. Log out of your VM.
-3. Log back into your VM, open a terminal, and run the following command:
-```
-testme
-```
-4. Did you see a message get printed to the screen saying "it worked!"?
