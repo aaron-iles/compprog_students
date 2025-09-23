@@ -4,7 +4,14 @@
 This exercise is meant to get you comfortable with Bash commands and using the terminal to control your computer via the command-line interface (CLI). You'll walk through and perform each command step-by-step.
 
 ## Instructions
-
+### Install Sublime
+1. Run the commands below.
+   ```bash
+   sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
+   sudo dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+   sudo dnf install sublime-text
+   ```
+### Practice Bash
 1. Open your virtual machine (VM).
 2. Open the **Terminal** application (search for it in the applications menu).
 3. Type each of the following commands **in order**, observing what each one does:
