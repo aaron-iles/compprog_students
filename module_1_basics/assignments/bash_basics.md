@@ -9,7 +9,7 @@ This exercise is meant to get you comfortable with Bash commands and using the t
    ```bash
    sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
    sudo dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
-   sudo dnf install sublime-text
+   sudo dnf install sublime-text -y
    ```
 ### Practice Bash
 1. Open your virtual machine (VM).
