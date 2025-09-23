@@ -100,9 +100,7 @@ This exercise is meant to get you comfortable with Bash commands and using the t
 
 | Criteria                            | Points |
 |-------------------------------------|--------|
-| Completed all Bash operations       | 10 pts |
-| Demonstrated use of tab completion  | 2 pts  |
-| Understood and explained each step  | 3 pts  |
+| Completed all Bash operations       | 5 pts |
 
 **Total**: 15 points
 
