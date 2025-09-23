@@ -12,6 +12,31 @@ See [this link](https://github.com/about) to learn more about GitHub.
 
 ### Add an SSH key
 Follow [these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui) for adding an ssh key. This enables you to interact with GitHub from the command line.
+1. Open the terminal
+2. Paste the text below, replacing the email used in the example with your GitHub email address.
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+3. When you're prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location.
+4. When prompted for a passphrase, just press enter twice.
+5. Once the prompts are finished and your key pair is created, run the following command to show your public key.
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+6. Copy the contents of the id_ed25519.pub file displayed in the terminal to your clipboard.
+7. In the upper-right corner of any page on GitHub, click your profile picture, then click  Settings.
+
+In the "Access" section of the sidebar, click  SSH and GPG keys.
+
+Click New SSH key or Add SSH key.
+
+In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal laptop, you might call this key "Personal laptop".
+
+Select the type of key, either authentication or signing. For more information about commit signing, see About commit signature verification.
+
+In the "Key" field, paste your public key.
+
+Click Add SSH key.
 
 ### Create class repository
 1. Log into GitHub.
