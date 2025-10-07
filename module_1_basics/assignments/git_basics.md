@@ -59,15 +59,6 @@ To indicate completion and prove the directions were followed, submit a **link t
 - [ ] File staged, committed, and pushed to GitHub.
 - [ ] Link to the pushed file submitted.
 
-## Grading Criteria
-
-| Criteria                         | Points |
-|----------------------------------|--------|
-| File created and committed       | 5 pts  |
-| File pushed to GitHub            | 5 pts  |
-| GitHub URL submitted correctly   | 5 pts  |
-
-**Total**: 15 points
 
 ## Resources
 - [Git Cheat Sheet](../resources/git_cheat_sheet.sh)
