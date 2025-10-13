@@ -2,6 +2,7 @@
 Use the internet, friends, and any other resources to complete this quiz.
 
 ## Instructions
+- Make a copy of this file and place it in your git repo.
 - Mark multiple-choice answers by changing [ ] to [x].
 - Write free-response answers in the space provided.
 
