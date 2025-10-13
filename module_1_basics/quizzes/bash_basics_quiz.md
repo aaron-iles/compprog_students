@@ -5,6 +5,7 @@ Use the internet, friends, and any other resources to complete this quiz.
 - Make a copy of this file and place it in your git repo.
 - Mark multiple-choice answers by changing [ ] to [x].
 - Write free-response answers in the space provided.
+- When finished, add, commit, and push the file to your repo and submit a link to the file in Google Classroom (I can help you with this in class)
 
 1. What command do you use to change directories?
 - [ ] `ls`
