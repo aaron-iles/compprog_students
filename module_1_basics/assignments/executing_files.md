@@ -74,10 +74,8 @@ We won’t be using IDEs for programming in this class. We will be using the tru
 | Criteria                            | Points |
 |-------------------------------------|--------|
 | Script created and edited properly  | 5 pts  |
-| Script ran with Python interpreter  | 5 pts  |
-| Script executed using shebang       | 5 pts  |
 
-**Total**: 15 points
+**Total**: 5 points
 
 ## Resources
 - [Bash Cheat Sheet](../resources/bash_cheat_sheet.sh)
