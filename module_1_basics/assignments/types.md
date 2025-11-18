@@ -52,10 +52,10 @@ Demonstrate your knowledge of various types in Python by creating and assigning 
 
 | Criteria                                 | Points |
 |------------------------------------------|--------|
-| Correctly assigned values and types      | 10 pts |
+| Correctly assigned values and types      | 5 pts |
 | File named and submitted correctly       | 5 pts  |
 
-**Total**: 15 points
+**Total**: 10 points
 
 ## Resources
 - [Variable Assignment Cheat Sheet](../resources/variable_assignment_cheat_sheet.py)
