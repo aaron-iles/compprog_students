@@ -17,23 +17,49 @@ Implement the following functions in `loops_practice.py`:
 
 ```python
 def sum_with_for(numbers: list[int]) -> int:
-    """Return the sum of a list using a for loop."""
+    """
+    Return the sum of a list using a for loop.
+    
+    >>> sum_with_for([2, 5, 1])
+    8
+    """
     pass
 
 def count_down_while(start: int) -> list[int]:
-    """Return a list counting down from start to 0 using a while loop."""
+    """
+    Return a list counting down from start to 0 using a while loop.
+
+    >>> count_down_while(4)
+    [4, 3, 2, 1]
+    """
     pass
 
 def print_grid(rows: int, cols: int) -> None:
-    """Print a grid of '*' with the given rows and columns using nested loops."""
+    """
+    Print a grid of '*' with the given rows and columns using nested loops.
+
+    >>> print_grid(3, 2)
+    ***
+    ***
+    """
     pass
 
 def find_first_even(numbers: list[int]) -> int:
-    """Return the first even number in the list using a loop. Return -1 if none found."""
+    """
+    Return the first even number in the list using a loop. Return -1 if none found.
+
+    >>> find_first_even([1, 17, 4, 9])
+    4
+    """
     pass
 
-def reverse_string(s: str) -> str:
-    """Return the reverse of the input string using a loop (not slicing)."""
+def reverse_string(string: str) -> str:
+    """
+    Return the reverse of the input string using a loop (not slicing).
+
+    >>> reverse_string('Hello')
+    'olleH'
+    """
     pass
 ```
 
