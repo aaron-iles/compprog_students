@@ -75,14 +75,13 @@ You should test each function with:
 - Edge cases (e.g., only one item in the list)
 - Uppercase/lowercase inputs
 
-| Function Call                    | Expected Outcome               |
-|----------------------------------|--------------------------------|
-| `calculate_average([])`         | `0`                          |
-| `calculate_average([1, 2, '3'])` | `2`                          |
-| `find_largest_number([-3, -1])` | `-1`                           |
-| `find_largest_number([9, '10'])` | `9`                           |
-| `count_vowels("HELLO")`         | `2`                            |
-| `count_vowels("HELLO?")`         | `2`                            |
+```python
+assert calculate_average([]) == 0
+assert calculate_average([1, 2, '3']) == 2
+assert find_largest_number([-3, -1]) == -1
+assert count_vowels("HELLO") == 2
+assert count_vowels("HELLO?") == 2
+```
 
 ## Submission Checklist
 - [ ] Created `function_bugs.py` in your GitHub repo.
