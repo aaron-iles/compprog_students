@@ -80,7 +80,7 @@ assert calculate_average([]) == 0
 assert calculate_average([1, 2, '3']) == 2
 assert find_largest_number([-3, -1]) == -1
 assert count_vowels("HELLO") == 2
-assert count_vowels("HELLO?") == 2
+assert count_vowels("HELLO123") == 2
 ```
 
 ## Submission Checklist
