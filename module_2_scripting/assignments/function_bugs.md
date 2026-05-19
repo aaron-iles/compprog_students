@@ -62,7 +62,7 @@ def count_vowels(word: str) -> int:
     vowels = ['a', 'e', 'i', 'o', 'u']
     count = 0
     for char in word:
-        if char.lower() in vowels:
+        if char in vowels:
             count += 1
     return count
 ```
@@ -79,7 +79,7 @@ You should test each function with:
 assert calculate_average([]) == 0
 assert calculate_average([1, 2, '3']) == 2
 assert find_largest_number([-3, -1]) == -1
-assert count_vowels("HELLO") == 2
+assert count_vowels("Hello") == 2
 assert count_vowels("HELLO123") == 2
 ```
 
