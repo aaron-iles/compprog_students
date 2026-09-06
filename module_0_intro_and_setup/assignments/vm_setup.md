@@ -25,3 +25,8 @@ sudo echo "hello world"
 
 ### Configure your VM
 Now is your chance to change your wallpaper, theme, log into accounts, and whatever else you would like to do.
+#### Set up GTE
+The application `gnome-text-editor` is what you will use to edit your code. Open this application by opening the terminal and typing `gnome-text-editor` then pressing `Enter`.
+In the upper right corner press the hamburger button then "preferences". Ensure your configuration looks like this
+
+<img width="608" height="911" alt="image" src="https://github.com/user-attachments/assets/dc8d5c6b-6024-4be9-9c77-06d3c5131249" />
