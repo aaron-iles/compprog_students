@@ -15,7 +15,8 @@ For this assignment you will log into Guacamole (a clientless remote desktop gat
 2. Log in using the credentials sent to your student email account.
 3. When prompted to allow Guacamole access to your clipboard, please grant it access.
 4. After logging in you should see a login screen for your virtual machine. Enter your password and confirm that you can get into your VM.
-5. Open Google Chrome and navigate to [GitHub](https://github.com)
+5. Open Google Chrome and log into your Hope Academy email account. If you wish to log into your personal Chrome profile, that's okay too.
+6. Open Google Chrome and navigate to [GitHub](https://github.com)
 
 ### Confirm sudoers
 1. Open the application called "Terminal" and confirm that you can run the following command
