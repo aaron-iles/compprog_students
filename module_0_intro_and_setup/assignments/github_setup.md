@@ -11,7 +11,7 @@ See [this link](https://github.com/about) to learn more about GitHub.
 3. Follow the rest of the prompts for setting up your account. 
 
 ### Add an SSH key
-Follow [these instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui) for adding an ssh key. This enables you to interact with GitHub from the command line.
+Follow the instructions below for adding an ssh key. This enables you to interact with GitHub from the command line.
 1. Open the terminal
 2. Paste the text below, replacing the email used in the example with your GitHub email address.
 ```bash
