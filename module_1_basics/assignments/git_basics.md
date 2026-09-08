@@ -16,9 +16,9 @@ Git is the most popular version control system on earth. Every developer must le
     git config --global user.email "your email"
     ```
 
-3. Open a file in Sublime and write something in it:
+3. Open a file in Gnome text editor and write something in it:
     ```bash
-    subl test.txt
+    gnome-text-editor test.txt
     ```
 
 4. Stage the file:

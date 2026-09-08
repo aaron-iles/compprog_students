@@ -25,8 +25,8 @@ touch my_file.txt
 # View the contents of a file
 cat my_file.txt
 
-# Edit a file using sublime
-subl my_file.txt
+# Edit a file using a text editor
+gnome-text-editor my_file.txt
 
 # Copy a file
 cp original.txt copy.txt

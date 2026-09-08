@@ -26,9 +26,9 @@ We won’t be using IDEs for programming in this class. We will be using the tru
     python3 my_script.py
     ```
 
-5. Open the file in Sublime:
+5. Open the file:
     ```bash
-    subl my_script.py
+    gnome-text-editor my_script.py
     ```
 
 6. Add the following code and save the file:
@@ -36,7 +36,7 @@ We won’t be using IDEs for programming in this class. We will be using the tru
     print("Hello World!")
     ```
 
-7. Exit Sublime and run the script again:
+7. Exit gnome-text-editor and run the script again:
     ```bash
     python3 my_script.py
     ```

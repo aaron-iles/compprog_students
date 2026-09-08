@@ -4,14 +4,6 @@
 This exercise is meant to get you comfortable with Bash commands and using the terminal to control your computer via the command-line interface (CLI). You'll walk through and perform each command step-by-step.
 
 ## Instructions
-### Install Sublime
-1. Run the commands below.
-   ```bash
-   sudo update-crypto-policies --set LEGACY
-   sudo rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
-   sudo dnf config-manager addrepo --from-repofile=https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
-   sudo dnf install sublime-text -y
-   ```
 ### Practice Bash
 1. Open your virtual machine (VM).
 2. Open the **Terminal** application (search for it in the applications menu).
@@ -51,8 +43,8 @@ This exercise is meant to get you comfortable with Bash commands and using the t
     # List directory contents
     ls
 
-    # Open the file with Sublime. Type "hello world", save, and close the editor
-    subl test_file.txt
+    # Open the file with gnome-text-editor. Type "hello world", save, and close the editor
+    gnome-text-editor test_file.txt
 
     # Display the contents of the file
     cat test_file.txt
