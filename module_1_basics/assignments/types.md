@@ -40,6 +40,16 @@ Demonstrate your knowledge of various types in Python by creating and assigning 
 4. Submit the assignment by copying the URL of your pushed file (`type_worksheet.py`) and pasting it in the assignment submission.
 
 ## Examples & Test Cases
+```python
+assert type(a) == int
+assert type(b) == float
+assert type(c) == type_c
+assert type(d) == str
+assert type(e) == bool
+assert type(f) == list
+assert type(g) == set
+assert type(h) == dict
+```
 
 
 ## Submission Checklist

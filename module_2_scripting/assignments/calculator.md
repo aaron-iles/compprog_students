@@ -21,12 +21,15 @@ This assignment will be graded as we cover different concepts, so focus on good 
 
 ## Examples & Test Cases
 
+```python3
+assert add(3, 4) == 7
+assert subtract(10, 4) == 6
+assert multiply(3, 5) == 15
+assert divide(10, 2) == 5.0
+```
+
 | Function Call              | Expected Output |
 |---------------------------|-----------------|
-| `add(3, 4)`                | `7`             |
-| `subtract(10, 4)`          | `6`             |
-| `multiply(3, 5)`           | `15`            |
-| `divide(10, 2)`            | `5.0`           |
 | `divide(10, 0)`            | Graceful error  |
 
 ## Submission Checklist

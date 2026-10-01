@@ -55,22 +55,22 @@ Exercise your understanding of conditionals by completing partially written func
 
 ## Examples & Test Cases
 
-| Function Call            | Expected Output |
-|--------------------------|-----------------|
-| `is_even(4)`             | `True`          |
-| `is_even(5)`             | `False`         |
-| `calculate_grade(95)`    | `'A'`           |
-| `calculate_grade(72)`    | `'C'`           |
-| `calculate_grade(50)`    | `'F'`           |
-| `age_classifier(10)`     | `'child'`       |
-| `age_classifier(16)`     | `'teenager'`    |
-| `age_classifier(25)`     | `'adult'`       |
+```python
+assert is_even(4) == True
+assert is_even(5) == False
+assert calculate_grade(95) == 'A' 
+assert calculate_grade(72) == 'C'
+assert calculate_grade(50) == 'F'
+assert age_classifier(10) == 'child'
+assert age_classifier(16) == 'teenager'
+assert age_classifier(25) == 'adult'
+```
 
 ## Submission Checklist
 - [ ] File named `conditionals.py` created.
 - [ ] `calculate_grade()` function implemented correctly.
 - [ ] `age_classifier()` function implemented correctly.
-- [ ] Code returns expected results for all test cases.
+- [ ] All assertions pass.
 - [ ] File pushed to GitHub and URL submitted.
 
 ## Grading Criteria

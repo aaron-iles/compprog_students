@@ -1,4 +1,4 @@
-# Loops 
+# Loops
 
 ## Description
 This assignment is designed to help you demonstrate your understanding of different types of loops in Python: `for` loops, `while` loops, and nested loops. You'll write functions to solve various small problems using loops.
@@ -19,7 +19,7 @@ Implement the following functions in `loops_practice.py`:
 def sum_with_for(numbers: list[int]) -> int:
     """
     Return the sum of a list using a for loop.
-    
+
     >>> sum_with_for([2, 5, 1])
     8
     """
@@ -64,15 +64,14 @@ def reverse_string(string: str) -> str:
 ```
 
 ## Examples & Test Cases
-
-| Function Call               | Expected Output               |
-|-----------------------------|-------------------------------|
-| `sum_with_for([1, 2, 3])`   | `6`                           |
-| `count_down_while(5)`       | `[5, 4, 3, 2, 1, 0]`          |
-| `print_grid(2, 3)`          | `***\n***`                    |
-| `find_first_even([1, 3, 4])`| `4`                           |
-| `find_first_even([1, 3, 5])`| `-1`                          |
-| `reverse_string("hello")`   | `"olleh"`                     |
+```python3
+sum_with_for([1, 2, 3]) == 6
+count_down_while(5) == [5, 4, 3, 2, 1, 0]
+print_grid(2, 3) == ***\n***
+find_first_even([1, 3, 4]) == 4
+find_first_even([1, 3, 5]) == -1
+reverse_string("hello") == "olleh"
+```
 
 ## Submission Checklist
 - [ ] File `loops_practice.py` created.
